@@ -59,7 +59,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  MyLib
+    exposed-modules: MagicFormula
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -101,4 +101,5 @@ test-suite magic-tyre-model-test
     -- Test dependencies.
     build-depends:
         base ^>=4.19.0.0,
-        magic-tyre-model
+        magic-tyre-model,
+        hspec
