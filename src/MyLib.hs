@@ -1,4 +1,7 @@
 module MyLib (someFunc) where
 
+import MagicFormula
+
 someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+someFunc = do 
+    print $ magicFormulaDeg 12.0
